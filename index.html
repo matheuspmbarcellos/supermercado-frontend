@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Mercado </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <!-- Cabeçalho de informações do sistema -->
+        <header>
+            <div class="title">
+                <h2>Lista de Compras</h2>
+            </div>
+            <div class="banner">
+                <img src="https://images.contentstack.io/v3/assets/blt45c082eaf9747747/bltbcca43584b660977/5de0b6aa703bd50385f981ad/Header-5.jpg?width=1200&height=630&fit=crop"
+                    alt="Não foi possível carregar imagem">
+            </div>
+        </header>
+
+        <!-- Campos para permitir o usuário adicionar produto -->
+        <section class="newItem">
+            <input type="text" id="newProduct" placeholder="Adicione o novo produto: ">
+            <input type="text" id="newQuantity" placeholder="Quantidade:">
+            <input type="text" id="newPrice" placeholder="Valor:">
+            <button class="addBtn"> Adicionar </button>
+        </section>
+
+        <!-- Lista de items existentes -->
+        <section class="items">
+            <table id="myTable">
+                <tr> 
+                    <th> Id </th>
+                    <th> Nome </th>
+                    <th> Quantidade </th>
+                    <th> Valor </th>
+                    <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+                </tr>
+                <tr>
+                    <td> 1 </td>
+                    <td> Banana </td>
+                    <td> 20 </td>
+                    <td> 10.50 </td>
+                    <td> X </td>
+                </tr>
+                <tr>
+                    <td> 2 </td>
+                    <td> Uva </td>
+                    <td> 15 </td>
+                    <td> 10 </td>
+                    <td> X </td>
+                </tr>
+            </table>
+        </section>
+
+        <script src="script.js" ></script>
+    </body>
+</html>
